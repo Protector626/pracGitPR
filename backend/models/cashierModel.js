@@ -14,6 +14,7 @@ export async function cashierProductById (id) {
     );
     return rows;
 }
+// Pogi ko
 
 export const addToCart = async (cashier) => {
     const [rows] = await pool.query(

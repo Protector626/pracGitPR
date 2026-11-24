@@ -24,3 +24,8 @@ export const fetchCart = async() => {
     const cart = await cashierModel.cartItems();
     return cart;
 }
+
+export const clearCart = async() => {
+    const result = await cashierModel.clearCart();
+    return result;
+}
