@@ -6,7 +6,7 @@ export async function cashierMenu () {
     );
     return rows;
 }
-
+//kupal
 export async function cashierProductById (id) {
     const [rows] = await pool.query(
         "SELECT * FROM cashierproduct WHERE product_id = ?",
